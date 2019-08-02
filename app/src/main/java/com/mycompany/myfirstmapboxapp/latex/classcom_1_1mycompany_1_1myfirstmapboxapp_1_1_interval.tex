@@ -1,0 +1,225 @@
+\hypertarget{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval}{}\section{com.\+mycompany.\+myfirstmapboxapp.\+Interval Class Reference}
+\label{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval}\index{com.\+mycompany.\+myfirstmapboxapp.\+Interval@{com.\+mycompany.\+myfirstmapboxapp.\+Interval}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a2eccdd083583a2babcfea22b5a0f8053}{Interval} (double min, double max)
+\item 
+double \hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_ad537811e98caba58c27071acced4c252}{min} ()
+\item 
+double \hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a8f959bd89864640b4febcbfebe376f31}{max} ()
+\item 
+boolean \hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_ac24fd0624aa6958bb802d1a0de58b1b3}{intersects} (\hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval}{Interval} that)
+\item 
+boolean \hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a4b110a2f87d5c8aed0f3854804483658}{contains} (double x)
+\item 
+double \hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a82f9eaa6872674e15cfa61c649d7820b}{length} ()
+\item 
+String \hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a2d2ebc28da1563c7a580aa30b4c20a36}{to\+String} ()
+\item 
+boolean \hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a72bd85dfc2178a46e7822bf4396551d0}{equals} (Object other)
+\item 
+int \hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a647f94b4cea335e3a5745b3ba123f71b}{hash\+Code} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The
+\begin{DoxyCode}
+\hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a2eccdd083583a2babcfea22b5a0f8053}{Interval} 
+\end{DoxyCode}
+ class represents a one-\/dimensional interval. The interval is {\itshape closed}�it contains both endpoints. Intervals are immutable\+: their values cannot be changed after they are created. The class
+\begin{DoxyCode}
+\hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a2eccdd083583a2babcfea22b5a0f8053}{Interval} 
+\end{DoxyCode}
+ includes methods for checking whether an interval contains a point and determining whether two intervals intersect.
+
+\begin{DoxyAuthor}{Author}
+Robert Sedgewick 
+
+Kevin Wayne 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a2eccdd083583a2babcfea22b5a0f8053}\label{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a2eccdd083583a2babcfea22b5a0f8053}} 
+\index{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}!Interval@{Interval}}
+\index{Interval@{Interval}!com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}}
+\subsubsection{\texorpdfstring{Interval()}{Interval()}}
+{\footnotesize\ttfamily com.\+mycompany.\+myfirstmapboxapp.\+Interval.\+Interval (\begin{DoxyParamCaption}\item[{double}]{min,  }\item[{double}]{max }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Initializes a closed interval \mbox{[}min, max\mbox{]}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em min} & the smaller endpoint \\
+\hline
+{\em max} & the larger endpoint \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if the min endpoint is greater than the max endpoint \\
+\hline
+{\em Illegal\+Argument\+Exception} & if either
+\begin{DoxyCode}
+\hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_ad537811e98caba58c27071acced4c252}{min} 
+\end{DoxyCode}
+ or
+\begin{DoxyCode}
+\hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a8f959bd89864640b4febcbfebe376f31}{max} 
+\end{DoxyCode}
+ is
+\begin{DoxyCode}
+Double.NaN 
+\end{DoxyCode}
+ ,
+\begin{DoxyCode}
+Double.POSITIVE\_INFINITY 
+\end{DoxyCode}
+ or 
+\begin{DoxyCode}
+Double.NEGATIVE\_INFINITY 
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a4b110a2f87d5c8aed0f3854804483658}\label{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a4b110a2f87d5c8aed0f3854804483658}} 
+\index{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}!contains@{contains}}
+\index{contains@{contains}!com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}}
+\subsubsection{\texorpdfstring{contains()}{contains()}}
+{\footnotesize\ttfamily boolean com.\+mycompany.\+myfirstmapboxapp.\+Interval.\+contains (\begin{DoxyParamCaption}\item[{double}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns true if this interval contains the specified value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ if this interval contains the value
+\begin{DoxyCode}
+x 
+\end{DoxyCode}
+ ; 
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a72bd85dfc2178a46e7822bf4396551d0}\label{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a72bd85dfc2178a46e7822bf4396551d0}} 
+\index{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}!equals@{equals}}
+\index{equals@{equals}!com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}}
+\subsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean com.\+mycompany.\+myfirstmapboxapp.\+Interval.\+equals (\begin{DoxyParamCaption}\item[{Object}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Compares this transaction to the specified object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & the other interval \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ if this interval equals the other interval; 
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a647f94b4cea335e3a5745b3ba123f71b}\label{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a647f94b4cea335e3a5745b3ba123f71b}} 
+\index{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}!hash\+Code@{hash\+Code}}
+\index{hash\+Code@{hash\+Code}!com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}}
+\subsubsection{\texorpdfstring{hash\+Code()}{hashCode()}}
+{\footnotesize\ttfamily int com.\+mycompany.\+myfirstmapboxapp.\+Interval.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns an integer hash code for this interval.
+
+\begin{DoxyReturn}{Returns}
+an integer hash code for this interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_ac24fd0624aa6958bb802d1a0de58b1b3}\label{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_ac24fd0624aa6958bb802d1a0de58b1b3}} 
+\index{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}!intersects@{intersects}}
+\index{intersects@{intersects}!com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}}
+\subsubsection{\texorpdfstring{intersects()}{intersects()}}
+{\footnotesize\ttfamily boolean com.\+mycompany.\+myfirstmapboxapp.\+Interval.\+intersects (\begin{DoxyParamCaption}\item[{\hyperlink{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval}{Interval}}]{that }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns true if this interval intersects the specified interval.
+
+
+\begin{DoxyParams}{Parameters}
+{\em that} & the other interval \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}
+\textcolor{keyword}{true} 
+\end{DoxyCode}
+ if this interval intersects the argument interval; 
+\begin{DoxyCode}
+\textcolor{keyword}{false} 
+\end{DoxyCode}
+ otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a82f9eaa6872674e15cfa61c649d7820b}\label{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a82f9eaa6872674e15cfa61c649d7820b}} 
+\index{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}!length@{length}}
+\index{length@{length}!com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}}
+\subsubsection{\texorpdfstring{length()}{length()}}
+{\footnotesize\ttfamily double com.\+mycompany.\+myfirstmapboxapp.\+Interval.\+length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the length of this interval.
+
+\begin{DoxyReturn}{Returns}
+the length of this interval (max -\/ min) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a8f959bd89864640b4febcbfebe376f31}\label{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a8f959bd89864640b4febcbfebe376f31}} 
+\index{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}!max@{max}}
+\index{max@{max}!com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}}
+\subsubsection{\texorpdfstring{max()}{max()}}
+{\footnotesize\ttfamily double com.\+mycompany.\+myfirstmapboxapp.\+Interval.\+max (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the max endpoint of this interval.
+
+\begin{DoxyReturn}{Returns}
+the max endpoint of this interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_ad537811e98caba58c27071acced4c252}\label{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_ad537811e98caba58c27071acced4c252}} 
+\index{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}!min@{min}}
+\index{min@{min}!com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}}
+\subsubsection{\texorpdfstring{min()}{min()}}
+{\footnotesize\ttfamily double com.\+mycompany.\+myfirstmapboxapp.\+Interval.\+min (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the min endpoint of this interval.
+
+\begin{DoxyReturn}{Returns}
+the min endpoint of this interval 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a2d2ebc28da1563c7a580aa30b4c20a36}\label{classcom_1_1mycompany_1_1myfirstmapboxapp_1_1_interval_a2d2ebc28da1563c7a580aa30b4c20a36}} 
+\index{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!com\+::mycompany\+::myfirstmapboxapp\+::\+Interval@{com\+::mycompany\+::myfirstmapboxapp\+::\+Interval}}
+\subsubsection{\texorpdfstring{to\+String()}{toString()}}
+{\footnotesize\ttfamily String com.\+mycompany.\+myfirstmapboxapp.\+Interval.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a string representation of this interval.
+
+\begin{DoxyReturn}{Returns}
+a string representation of this interval in the form \mbox{[}min, max\mbox{]} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Interval.\+java\end{DoxyCompactItemize}

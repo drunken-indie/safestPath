@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="631a0eff3f78d2b0de250f44c1ff9885004a21dc">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f2df96f7bbf3775224bebba4bf49dab630fce0e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/.android/build-cache/e19d729a1fd2630684ef8056352862576bdc1f3c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_50018ddd3721a8eda035651032acc22a2dd17c91/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/.android/build-cache/cf7f2fceea75154fb2c316e4deddf2b734832491/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3cc0ae581bbb3073e340d98e1bf1dd6f2e5fe0ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/.android/build-cache/2a67828b45ee7f75c7ab21b99fc2c6fe798073ce/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b8b8b37b979e47a0c02a71f9af2f7c464979662a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/.android/build-cache/42a1af9ec44085da07d93ae69ed571deed235f41/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e84c0500bd7886b380dafb2e28022f2208946735/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/.android/build-cache/0690f3ed6042d9599885d9ec50acf8f478bece44/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9a937bbb8bc960f4fbe6c79ed00b10be0ab1e83c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/.android/build-cache/5f66beca4531d06c3892f059c402fbac50b436e2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb08c9d318f1fb1e5812104e438ec800b5891c3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/.android/build-cache/b92b92545af6299e2eef7e63623b9c70b05f9a4a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b79c0a1848984f93d16c8dc302e36ebb624e1c15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/.android/build-cache/7ed000268ae1e2258fec4f9b89a1f1820f811fe5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_44a5cee437f8ae0c90989518a8f6dc85cdbe8ef9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/.android/build-cache/76565d5bdf72d54378f794ce3192229809b61d61/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c061e06d2bc6f0d520e20e8eb48fed51afa4c750/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/.android/build-cache/cd3a1ad836acc384fea0c1b3227e51783136c354/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1cc9e574d1ade449337825e86d9d171dc473c9c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/.android/build-cache/568f8d42cc778bc1b4c06675b616be3660816d01/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f7e2212aebba050224d023bca7d47f780babc85c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/.android/build-cache/dca0d4775cc27a346002634c7384813b20224756/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1f01d68b3d204cdf9365ab9b644529d3e7f1ae69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/.android/build-cache/3682cf7ba9123e0a1efb82defb82446b87a675c6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1a12b473f7da8c17bc2dbaf2f443c0482802aeb2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/minsikkim/Desktop/macc/2/2XB3/g_12/MyFirstMapboxApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2f4f28be2b3ef65376012f4950a3dff17608e7fe/classes.dex" />
+    </item>
+
+</items>
